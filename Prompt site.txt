@@ -1,0 +1,277 @@
+## CONTEXTO
+
+Preciso criar um site informativo simples sobre São João Maria Vianney (Padre de Ars), padroeiro dos párocos.
+
+O site será divulgado por meio de um link/QR Code exibido ao final de uma apresentação sobre a vida do santo. Portanto, será um site público e não precisa de sistema de login, senha, cadastro ou controle de acesso.
+
+O objetivo é criar uma experiência visual bonita, organizada, responsiva e fácil de navegar, principalmente pelo celular.
+
+## REGRA MAIS IMPORTANTE — CONTEÚDO
+
+Você, IA, deve ser utilizada APENAS para gerar:
+
+* código;
+* estrutura do projeto;
+* layout;
+* componentes HTML;
+* estilos CSS;
+* funcionalidades JavaScript;
+* organização dos arquivos;
+* efeitos visuais e interações da interface.
+
+**NÃO gere, invente, resuma, complete ou pesquise nenhuma informação biográfica, histórica ou religiosa sobre São João Maria Vianney.**
+
+Não escreva por conta própria:
+
+* datas;
+* acontecimentos da vida;
+* biografia;
+* frases atribuídas ao santo;
+* curiosidades;
+* informações sobre devoção;
+* informações sobre o padroeiro;
+* informações sobre sua vida religiosa;
+* datas comemorativas;
+* qualquer outro dado histórico ou religioso.
+
+Todo o conteúdo textual será fornecido posteriormente por mim.
+
+O conteúdo deve ficar separado do código da interface, preferencialmente em um arquivo como `content.js`, para que eu possa editar os textos sem precisar modificar o HTML, CSS ou a lógica principal do site.
+
+Utilize apenas placeholders claramente identificados, por exemplo:
+
+`[INSERIR NOME DO SANTO]`
+
+`[INSERIR BIOGRAFIA AQUI]`
+
+`[INSERIR FRASE AQUI]`
+
+`[INSERIR DATA AQUI]`
+
+Nunca substitua esses placeholders por informações reais.
+
+## ESTRUTURA DO SITE
+
+### 1. Página inicial — Home
+
+Criar uma página inicial visualmente atrativa contendo:
+
+* título do site;
+* espaço para imagem ou ícone do santo;
+* frase de destaque fornecida posteriormente pelo usuário;
+* breve chamada para navegação;
+* botão para acessar o conteúdo.
+
+A frase de destaque deve ser um placeholder e **não deve ser criada pela IA**.
+
+### 2. Página "Quem foi São João Maria Vianney"
+
+Criar a estrutura para apresentar:
+
+* título;
+* imagem;
+* biografia;
+* possíveis destaques ou informações complementares.
+
+Todo o texto deve ser placeholder e vir do arquivo de conteúdo.
+
+### 3. Página "Linha do Tempo"
+
+Criar uma timeline ou sequência de cards para apresentar acontecimentos importantes da vida do santo.
+
+A estrutura deve permitir adicionar facilmente vários eventos.
+
+Cada evento deve possuir campos como:
+
+* data/período;
+* título;
+* descrição;
+* imagem opcional.
+
+Os dados devem ser placeholders no arquivo de conteúdo.
+
+### 4. Página "Curiosidades e devoção"
+
+Criar uma estrutura para apresentar informações como:
+
+* frases;
+* curiosidades;
+* devoção;
+* informações sobre o padroeiro;
+* data de festa;
+* outros conteúdos fornecidos posteriormente.
+
+**Não preencha essas informações com dados reais.**
+
+Use apenas placeholders.
+
+### 5. Rodapé
+
+Criar um rodapé simples contendo espaço para:
+
+* créditos;
+* autoria;
+* informações adicionais que serão fornecidas posteriormente.
+
+## REQUISITOS TÉCNICOS
+
+Utilizar:
+
+* HTML5;
+* CSS3;
+* JavaScript puro.
+
+Não utilizar frameworks pesados.
+
+O projeto deve ser simples de executar localmente no VS Code.
+
+Não utilizar React, Vue, Angular ou outras bibliotecas/frameworks desnecessários.
+
+## RESPONSIVIDADE
+
+O site deve ser desenvolvido com abordagem responsiva e funcionar bem principalmente em celulares, pois o acesso acontecerá por QR Code.
+
+Também deve funcionar corretamente em:
+
+* celular;
+* tablet;
+* computador.
+
+Utilizar:
+
+* layout flexível;
+* media queries;
+* botões com tamanho adequado para toque;
+* textos legíveis em telas pequenas;
+* imagens responsivas.
+
+## DESIGN
+
+Criar um visual:
+
+* limpo;
+* elegante;
+* sóbrio;
+* organizado;
+* agradável;
+* com aparência relacionada ao tema religioso/paróquia.
+
+Pode utilizar uma combinação equilibrada de cores como:
+
+* dourado;
+* branco;
+* azul;
+* bordô;
+* tons neutros.
+
+Não exagerar em elementos religiosos, efeitos ou cores.
+
+Priorizar boa hierarquia visual e facilidade de leitura.
+
+## INTERAÇÕES
+
+Adicionar apenas interações que realmente contribuam para a experiência do site, como:
+
+* navegação entre páginas/seções;
+* menu responsivo;
+* animações suaves;
+* efeitos de hover;
+* abertura de cards;
+* navegação pela timeline;
+* botão para voltar ao topo.
+
+Não criar funcionalidades desnecessárias.
+
+## ORGANIZAÇÃO DOS ARQUIVOS
+
+Utilizar uma estrutura organizada semelhante a:
+
+```text
+/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   ├── script.js
+│   └── content.js
+└── assets/
+    ├── images/
+    └── icons/
+```
+
+Caso seja necessário criar outros arquivos, explique brevemente a função de cada um.
+
+## ARQUIVO DE CONTEÚDO
+
+Criar um arquivo separado, preferencialmente `content.js`, contendo todos os textos e dados do site.
+
+Exemplo de estrutura:
+
+```javascript
+const content = {
+    home: {
+        title: "[INSERIR TÍTULO]",
+        subtitle: "[INSERIR FRASE DE DESTAQUE]",
+        buttonText: "[INSERIR TEXTO DO BOTÃO]"
+    },
+
+    biography: {
+        title: "[INSERIR TÍTULO]",
+        text: "[INSERIR BIOGRAFIA AQUI]"
+    },
+
+    timeline: [
+        {
+            date: "[INSERIR DATA]",
+            title: "[INSERIR TÍTULO DO EVENTO]",
+            description: "[INSERIR DESCRIÇÃO]"
+        }
+    ],
+
+    devotion: {
+        curiosities: [
+            "[INSERIR CURIOSIDADE]"
+        ],
+        quotes: [
+            "[INSERIR FRASE]"
+        ],
+        patron: "[INSERIR INFORMAÇÃO]",
+        feastDay: "[INSERIR DATA]"
+    }
+};
+```
+
+A estrutura pode ser modificada caso exista uma forma melhor de organizar o projeto, mas todos os textos devem permanecer separados do código da interface.
+
+## COMENTÁRIOS NO CÓDIGO
+
+Adicionar comentários claros indicando onde cada parte pode ser editada.
+
+Por exemplo:
+
+```javascript
+// EDITE AQUI: coloque a biografia fornecida pelo usuário.
+```
+
+Não colocar informações reais nesses comentários.
+
+## ENTREGÁVEIS
+
+Entregar:
+
+1. Estrutura completa de arquivos e pastas;
+2. Código-fonte completo do HTML;
+3. Código CSS completo;
+4. Código JavaScript completo;
+5. Arquivo `content.js` com todos os placeholders;
+6. Estrutura preparada para receber imagens;
+7. Comentários explicando onde cada conteúdo deve ser inserido;
+8. Instruções curtas para executar o projeto localmente no VS Code.
+
+## REGRA FINAL
+
+Antes de finalizar, verifique se o projeto contém **apenas placeholders para as informações sobre São João Maria Vianney**.
+
+Não adicione nenhuma informação biográfica, histórica ou religiosa por conta própria.
+
+O resultado deve ser um **site visualmente completo e funcional**, mas com o conteúdo informativo aguardando os textos que serão fornecidos pelo usuário.
