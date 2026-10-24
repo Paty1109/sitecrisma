@@ -1,0 +1,74 @@
+Quero que você desenvolva e organize um site completo, elegante, responsivo e informativo sobre **São João Maria Vianney**, conhecido como o Santo Cura d’Ars. O site será utilizado em um projeto de Crisma e deve apresentar sua história, vocação sacerdotal, dificuldades, missão e legado religioso.
+
+## 1. Antes de começar
+- Analise todos os arquivos existentes no projeto antes de fazer alterações.
+- O projeto está em JavaScript com Vite e possui arquivos como `src/main.js`, `src/content.js` e `src/style.css`.
+- Aproveite a estrutura, os estilos e os componentes que já existem quando for possível.
+- Não apague nem recrie o projeto inteiro sem necessidade.
+- Preserve o visual já desenvolvido, que utiliza azul-marinho, vinho, dourado, creme e fontes elegantes.
+- Faça as alterações diretamente nos arquivos do projeto.
+
+## 2. Objetivo do site
+Quero uma página inicial bonita, com uma apresentação de São João Maria Vianney e uma seção chamada **“Conheça sua história”**, contendo seis cards clicáveis. Cada card deve abrir uma página própria com informações detalhadas sobre o assunto.
+
+Crie estas seis páginas:
+
+1. **Infância e família:** nascimento, pais, irmãos, ambiente familiar, infância durante a Revolução Francesa e dificuldades religiosas daquele período.
+2. **A vocação sacerdotal:** como surgiu sua vocação, seu encontro com o padre que o orientou, as dificuldades nos estudos, especialmente com o latim, e sua perseverança até a ordenação.
+3. **A chegada a Ars:** sua ordenação sacerdotal, a chegada à pequena cidade de Ars, as condições religiosas da comunidade e os desafios que encontrou.
+4. **A missão e as confissões:** sua dedicação aos fiéis, as longas horas no confessionário, a orientação espiritual, a oração e as penitências, explicadas com respeito e sem exageros.
+5. **Doenças, últimos anos e morte:** os problemas de saúde, o cansaço causado pela missão, seus últimos anos e sua morte em 4 de agosto de 1859.
+6. **Beatificação, canonização e legado:** sua beatificação em 1905, canonização em 1925, reconhecimento como padroeiro dos párocos e sua importância para a Igreja Católica.
+
+## 3. Página inicial
+A página inicial deve conter:
+- Cabeçalho com nome ou logotipo do site e menu de navegação.
+- Seção principal de destaque, com título, breve apresentação e uma imagem adequada.
+- Seção “Conheça sua história” com os seis cards.
+- Uma seção sobre sua espiritualidade e legado.
+- Uma seção especial sobre as relíquias de São João Maria Vianney.
+- Rodapé com informações do projeto.
+
+Os seis cards devem ter imagens, títulos, pequenas descrições e um botão ou indicação como “Conheça a história”. Toda a área do card deve ser clicável.
+
+## 4. Página sobre as relíquias
+Crie uma seção ou página dedicada às relíquias preservadas em Ars, na França. Explique de forma respeitosa a preservação de seu corpo e a veneração de seu coração, distinguindo corretamente as informações históricas. Não invente detalhes sobre a localização, o estado de conservação ou a história das relíquias.
+
+## 5. Design
+- Estilo clássico, católico, histórico e elegante.
+- Paleta principal: azul-marinho, vinho suave, dourado, creme e branco.
+- Tipografia elegante para títulos e fácil leitura para os textos.
+- Imagens históricas ou religiosas apropriadas.
+- Cards com cantos suaves, sombras discretas e efeitos leves ao passar o mouse.
+- Animações suaves, sem exageros.
+- Layout adaptado para computador, tablet e celular.
+- Menu responsivo para celular.
+- Botão para voltar ao topo, se combinar com a estrutura existente.
+- Todas as páginas devem seguir a mesma identidade visual.
+
+## 6. Conteúdo e fontes
+- Escreva em português brasileiro, com linguagem clara, organizada e adequada para um trabalho de Crisma.
+- Apresente informações históricas com datas corretas.
+- Pesquise em fontes confiáveis, preferencialmente fontes oficiais da Igreja Católica, do Vaticano, da Diocese de Belley-Ars e de instituições históricas relacionadas ao santo.
+- Não invente citações atribuídas ao santo. Só utilize frases entre aspas quando conseguir confirmar sua origem em uma fonte confiável.
+- Evite repetir os mesmos parágrafos em páginas diferentes.
+- Inclua fontes e referências consultadas em uma seção própria ou no final das páginas.
+- Não use imagens aleatórias ou links inventados. Se não conseguir obter uma imagem confiável, deixe um espaço preparado para adicionarmos a imagem depois.
+
+## 7. Organização técnica
+- Utilize a tecnologia que já existe no projeto, sem adicionar frameworks desnecessários.
+- Organize o código para facilitar futuras alterações.
+- Crie as seis páginas individuais e faça os links dos cards funcionarem corretamente.
+- Garanta que os caminhos das imagens funcionem no Vite.
+- Mantenha o CSS organizado e reutilize os estilos sempre que possível.
+- Confira os links, botões, navegação, responsividade e erros no console.
+- Não deixe textos de exemplo, títulos provisórios ou conteúdo como “[INSERIR TEXTO]”.
+- Não remova funcionalidades existentes que estejam funcionando.
+
+## 8. Como executar o trabalho
+Primeiro, analise a estrutura atual e explique brevemente o que pretende reaproveitar. Depois, implemente as mudanças diretamente nos arquivos, criando os arquivos adicionais necessários. Ao terminar, informe:
+1. Quais arquivos foram criados ou modificados.
+2. Como abrir e testar o site.
+3. Quais imagens ou informações ainda precisam ser adicionadas ou verificadas.
+
+**Importante:** não quero apenas um planejamento ou exemplos de código. Quero que você implemente o projeto nos arquivos existentes, teste o que for possível e deixe o site funcionando.
